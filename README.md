@@ -7,7 +7,7 @@
 
 ## Sobre o Projeto
 
-Implementação completa do **Forward Pass** de um bloco Encoder do Transformer, conforme o artigo ["Attention Is All You Need" (Vaswani et al., 2017)](https://arxiv.org/abs/1706.03762), utilizando **apenas** `Python 3.x`, `numpy` e `pandas` — sem PyTorch, TensorFlow ou Keras.
+Implementação completa do **Forward Pass** de um bloco Encoder do Transformer, conforme o artigo ["Attention Is All You Need" (Vaswani et al., 2017)](https://arxiv.org/abs/1706.03762), utilizando **apenas** `Python`, `numpy` e `pandas`
 
 ## Arquitetura
 
@@ -52,12 +52,12 @@ python transformer.py
       meu   4
    ontem    5
 
-📝 Frase de entrada : ['o', 'banco', 'bloqueou', 'meu', 'cartao']
-🔢 IDs correspondentes: [0, 1, 2, 4, 3]
+ Frase de entrada : ['o', 'banco', 'bloqueou', 'meu', 'cartao']
+ IDs correspondentes: [0, 1, 2, 4, 3]
 
-✅ Shape do tensor de entrada X: (1, 5, 64)
+ Shape do tensor de entrada X: (1, 5, 64)
 
-🔁 Passando o tensor pelas 6 camadas do Encoder...
+ Passando o tensor pelas 6 camadas do Encoder...
 
   Camada 1 → shape: (1, 5, 64)
   Camada 2 → shape: (1, 5, 64)
@@ -66,7 +66,7 @@ python transformer.py
   Camada 5 → shape: (1, 5, 64)
   Camada 6 → shape: (1, 5, 64)
 
-✅ Validação de sanidade: shape de entrada = (1, 5, 64) | shape de saída = (1, 5, 64)
+ Validação de sanidade: shape de entrada = (1, 5, 64) | shape de saída = (1, 5, 64)
 ```
 
 ## Hiperparâmetros
