@@ -43,7 +43,7 @@ python transformer.py
 ## Saída Esperada
 
 ```
-📋 Vocabulário carregado:
+ Vocabulário carregado:
   palavra  id
         o   0
     banco   1
