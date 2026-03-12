@@ -1,5 +1,3 @@
-# Transformer Encoder — From Scratch
-
 > **Disciplina:** Tópicos em Inteligência Artificial — 2026.1  
 > **Professor:** Prof. Dimmy Magalhães  
 > **Instituição:** iCEV - Instituto de Ensino Superior  
